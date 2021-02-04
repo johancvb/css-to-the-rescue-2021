@@ -51,7 +51,7 @@ img {
     height: 100%;
     width: 350px;
     margin: 5px;
-    border: red 2px solid;
+    
 }
 
 /* container */
@@ -74,7 +74,7 @@ img {
     display: flex;
     align-items: flex-start;
     margin-bottom: 6em;
-    border: blue 2px solid;
+    
 }
 
 /* flex end */
@@ -83,7 +83,7 @@ img {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 6em;
-    border: blue 2px solid;
+   
 }
 
 /* space between */
@@ -92,7 +92,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 6em;
-    border: blue 2px solid;
+    
 }
 
 /* flex-grow */
@@ -100,7 +100,7 @@ img {
 .f_grow {
     display: flex;
     margin-bottom: 6em;
-    border: blue 2px solid;
+    
 }
 
 .item1 {
@@ -119,7 +119,14 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    border: blue 2px solid;
+    
+}
+
+.f_grow:hover, .f_start:hover, .f_end:hover, .space_between:hover, .align_self:hover {
+    border: blue 2px solid;  
+}
+.item:hover, .item1:hover, .item2:hover, .item3:hover {
+    border: red 2px solid;
 }
 
 
