@@ -160,14 +160,14 @@ a {
 }
 
 .rainbow-text {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   /*-webkit-background-clip: text;*/
     color: transparent;
 }
 
 #team-name {
     font-size: 40px;
     font-weight: bolder;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   /*-webkit-background-clip: text;*/
     color: transparent;
     -webkit-text-stroke: 3px white;
     position: relative;
@@ -180,7 +180,7 @@ a {
 }
 
 .menu-link {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   /*-webkit-background-clip: text;*/
     color: transparent;
     margin-left: 75px;
     font-size: 35px;
