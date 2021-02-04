@@ -121,8 +121,8 @@ img {
     align-items: baseline;
     
 }
-
-/* .f_grow, .f_start, .f_end, .space_between, .align_self {
+/* 
+.f_grow, .f_start, .f_end, .space_between, .align_self {
     border: blue 2px solid;  
 }
 .item, .item1, .item2, .item3 {
