@@ -122,12 +122,12 @@ img {
     
 }
 
-.f_grow:hover, .f_start:hover, .f_end:hover, .space_between:hover, .align_self:hover {
+/* .f_grow, .f_start, .f_end, .space_between, .align_self {
     border: blue 2px solid;  
 }
-.item:hover, .item1:hover, .item2:hover, .item3:hover {
+.item, .item1, .item2, .item3 {
     border: red 2px solid;
-}
+} */
 
 
 /* header css */
