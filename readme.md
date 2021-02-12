@@ -1,3 +1,16 @@
+## Week 2 ##
+
+Deze week ben ik een paar keer opnieuw begonnen met de styling van mijn website.
+Steeds zat ik maar te denken aan een nieuw design voor de menukaart. Na de workshops van Sanne over animeren, 
+wilde ik een zelf gemaakt poppetje gebruiken die de verschillende gerechten via zijn mond uitspuugde.
+Dit bleek echter een te grote uitdaging te zijn, aangezien ik nog niet heel veel ervaring met CSS heb.
+
+Uiteindelijk heb ik gekozen voor een site, die gebruik maakt van de zwart-witte restrictie.
+Ik wil vooral aan de slag met transities, en font-animaties. 
+
+Ik zie de font-animaties als grootste uitdaging, dus ik hoop dat ik veel informatie kan vinden over het gebruik
+van de verschillende font-animaties. 
+
 
 ## Week 1 ##
 
