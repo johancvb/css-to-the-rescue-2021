@@ -196,7 +196,7 @@ header h1, header h2, header p{
 /* Menu */
 
 main {
-  margin: 10%;
+  margin: 5% 10%;
   padding: 4em;
   background: white;
   display: grid;
@@ -222,7 +222,11 @@ section header h2, section header p {
   font-size: 1.8em;
 }
 
-section header::after {
+section header {
+  height: 100px;
+}
+
+/* section header::after {
   content: "";
   position: absolute;
   width: 20%;
@@ -231,7 +235,7 @@ section header::after {
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 250ms ease-in;
-}
+} */
 
 section header:hover::after {
   transform: scaleX(1);
@@ -251,7 +255,6 @@ article:hover {
 
   cursor: pointer;
   padding: 25px 50px;
-  margin: 25px;
   font-size: 1.3em;
   color: #fff;
   background: transparent;
@@ -274,7 +277,6 @@ details:active {
 }
 
 summary {
-  
   cursor: pointer;
   outline: none;
 }
@@ -287,6 +289,18 @@ summary::-webkit-details-marker {
 }
 
 details[open] summary::-webkit-details-marker {
-  background-image: url(./img/angle-double-up-solid.svg);
-  
+  background-image: url(./img/angle-double-up-solid.svg);  
+}
+
+details header:hover {
+  animation: bounce 1.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 50%, 100% {
+    transform: translateY(0);
+  }
+  25%, 75% {
+    transform: translateY(-10px);
+  }
 }
