@@ -12,22 +12,22 @@ body {
   width: 100%;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background-color: black;
+  background: linear-gradient(white 2%,#2851f6 2%);
   color: black;
 
 }
 
 body header {
   background: white;
-  border-radius: 10% 10% 20% 20% / 0% 0% 80% 80% ;
-  height: 150px;
+  border-radius: 10% 10% 20% 20% / 0% 0% 50% 50% ;
+  height: 200px;
   color: white;
   font-family: 'Space Mono', monospace;
   display: block;
 
 }
 
-body header:hover {
+body > header:hover {
 
   transform: translateY(20px);
   transition: 1s;
@@ -191,6 +191,8 @@ header h1, header h2, header p{
   0%   { left: -100px; }
   100% { left: 50%; }
 } */
+
+
 /* Menu */
 
 main {
@@ -212,42 +214,79 @@ section{
   flex-direction: column;
   align-items: center;
   width: 100%;
-}
-
-section {
-  border: black 1px solid;
+  border: black 2px solid;
+  box-shadow: 5px 6px;
 }
 
 section header h2, section header p {
   font-size: 1.8em;
 }
 
+section header::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 10px;
+  background: blue;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+section header:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 article {
  height: 100px;
  padding: 10px 20px;
  width: 80%;
+ margin: 0 auto;
  margin-bottom: 20px;
  border: black 2px dotted;
-
-
- 
 }
 
 article:hover {
-  
+
+  cursor: pointer;
   padding: 25px 50px;
   margin: 25px;
-  font-size: 25px;
-  
+  font-size: 1.3em;
   color: #fff;
   background: transparent;
   background-image: url(https://web.archive.org/web/20160312084140im_/http://splatoon.nintendo.com/assets/img/nav-bg-fill-blue.png?1443460871);
   background-position: 200% 100%;
   transition: 1s ease-out;
-
-  
 }
 
 article h3, article p, article div {
   width: 100%;
+}
+
+details {
+  padding: 1em;
+ 
+}
+
+details:active {
+  outline: none;
+}
+
+summary {
+  
+  cursor: pointer;
+  outline: none;
+}
+
+summary::-webkit-details-marker {
+  background-image: url(./img/angle-double-down-solid.svg);
+  height: 25px;
+  width: 15px;
+  color: transparent;
+}
+
+details[open] summary::-webkit-details-marker {
+  background-image: url(./img/angle-double-up-solid.svg);
+  
 }
