@@ -1,3 +1,23 @@
+## Week 3 ##
+
+In deze week ben ik verder gaan werken aan mijn website.
+Ik heb nu een duidelijk idee gekregen over hoe mijn website er precies uit komt te zien.
+Ik hanteer voor mijn website de "maximaal 2 kleuren" restrictie, dus moet ik het doen met blauw, en nog een kleur.
+Aangezien zwart en wit geen kleuren zijn, maar tinten/contrasten, kan ik toch wel gebruik maken van kleuren.
+
+Tijdens deze week heb ik de workshops Interactie en Accessibility van Vasilis gevolgd. Deze waren heel nuttig.
+Ik heb hierna besloten om de nieuwe technieken die ik geleerd heb tijdens de worskops, toe te passen op mijn website.
+Ik maak nu gebruik van Details&Summary, die er voor zorgen dat bepaalde elementen uitklapbaar worden.
+De sections zijn nu dus uitklapbaar, en dan verschijnen de articles (de gerechten).
+
+Voor de articles heb ik ook animaties toegepast, namelijk een soort flip-over als je er over heen hovert.
+Verder heb ik de achtergrond aangepast naar een soort tafelkleed-achtige look. Dit geeft een meer smakelijker gevoel.
+
+Ik wil in de vakantie nog meer dingen implementeren voor mijn site, en de styling perfectioneren.
+Ook moet ik nog mijn website responsive maken, zonder media-queries.
+
+
+
 ## Week 2 ##
 
 Deze week ben ik een paar keer opnieuw begonnen met de styling van mijn website.
@@ -6,7 +26,7 @@ wilde ik een zelf gemaakt poppetje gebruiken die de verschillende gerechten via 
 Dit bleek echter een te grote uitdaging te zijn, aangezien ik nog niet heel veel ervaring met CSS heb.
 
 Uiteindelijk heb ik gekozen voor een site, die gebruik maakt van de zwart-witte restrictie.
-Ik wil vooral aan de slag met transities, en font-animaties. 
+Ik wil vooral aan de slag gaan met transities en font-animaties. 
 
 Ik zie de font-animaties als grootste uitdaging, dus ik hoop dat ik veel informatie kan vinden over het gebruik
 van de verschillende font-animaties. 
