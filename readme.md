@@ -1,3 +1,31 @@
+# 🧡 CSS to the Rescue 🧡
+
+[LIVE LINK NAAR DEMO]()
+
+Tijdens dit vak moeten we een website maken door middel van pure HTML en CSS, dus zonder gebruik te maken van JavaScript.  
+
+![](https://imgur.com/Sdslf6n.png)
+
+## 🔨 Herkansing
+
+Ik heb de eerste gelegenheid van dit vak niet kunnen doen, deels omdat mijn site nog niet klaar was. Ik heb er ook voor gekozen om helemaal opnieuw te beginnen met mijn site. Het ontwerp, de kleuren, en animaties heb ik allemaal veranderd. Ik ben voor een 'slimey' thema gegaan. 
+<br><br>
+
+### 🚫 Restricties / context
+Tijdens dit project moest je je houden aan minimaal 2 restricties.
+Ik heb tijdens dit project gekozen voor de volgende restricties:
+
+- Twee kleuren
+- Responsive zonder media queries
+
+Ook moest je minimaal 1 context toevoegen. Ik heb gekozen voor de volgende context: 
+
+- prefers-color-scheme
+
+<br><br>
+
+-------------------------------
+<br><br><br><br><br><br>
 ## Week 3 ##
 
 In deze week ben ik verder gaan werken aan mijn website.
