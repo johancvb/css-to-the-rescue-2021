@@ -1,6 +1,6 @@
 # 🧡 CSS to the Rescue 🧡
 
-[LIVE LINK NAAR DEMO]()
+[LIVE LINK NAAR DEMO](https://tender-wiles-e17517.netlify.app/)
 
 Tijdens dit vak moeten we een website maken door middel van pure HTML en CSS, dus zonder gebruik te maken van JavaScript.  
 
