@@ -18,9 +18,13 @@ Ik heb tijdens dit project gekozen voor de volgende restricties:
 - Twee kleuren
 - Responsive zonder media queries
 
+Ik heb gekozen voor de 2 kleuren; chartreuse & black. Omdat ik een 'slime' thema wilde, leek chartreuse mij daar een geschikte kleur voor.
+
 Ook moest je minimaal 1 context toevoegen. Ik heb gekozen voor de volgende context: 
 
 - prefers-color-scheme
+
+Voor de dark-mode is chartreuse natuurlijk veel te fel. Daarom heb ik voor de dark-mode gekozen voor een black & white thema. De witte kleur wordt door de opacity minder licht, dus is het een goede optie voor dark-mode.
 
 <br><br>
 
